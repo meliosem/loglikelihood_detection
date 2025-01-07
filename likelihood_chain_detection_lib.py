@@ -85,8 +85,8 @@ def synthesize_numerical_data(size, dist):
 def EM(n, ns_hist, transform, max_iteration, loglikelihood_threshold, init_dist):
     theta = np.ones(n) / float(n)
 
-    if np.size(init_dist) != 0:
-        return init_dist
+    # if np.size(init_dist) != 0:
+        # return init_dist
         # theta = 0.6*init_dist + 0.4*np.ones(n) / float(n)
     # print("theta", theta)
 
